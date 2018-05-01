@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="choose__player">
+            <div class="player_1 active">
+                <span class="player_symbol">&times;</span>
+                <span class="symbol-minus">0</span>
+            </div>
+
+            <div class="player_2">
+                    <span class="player_symbol">&cir;</span>
+                    <span class="symbol-minus">0</span>
+            </div>
+        </div>
+        <div class="label"><span>Start game or select player</span></div>
+    </nav>
+    <div class="tic-tac-toe">
+        <div class="first-top border-size"></div>
+        <div class="second-top border-size"></div>
+        <div class="third-top border-size"></div>
+
+        <div class="first-middle border-size"></div>
+        <div class="second-middle border-size"></div>
+        <div class="third-middle border-size"></div>
+
+        <div class="first-bottom border-size"></div>
+        <div class="second-bottom border-size"></div>
+        <div class="third-bottom border-size"></div>
+    </div>
+    <button class="btn-restart">RESTART GAME</button>
+
+    <div class="overlay">
+            <div class="popup">
+                <h2></h2>
+                <div class="content symbol_white"></div>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
